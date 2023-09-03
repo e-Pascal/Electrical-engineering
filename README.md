@@ -18,6 +18,7 @@
 Лабораторные работы будут выполняться ...
 
 1. [Название лабы1](https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D1%82%D0%B5%D1%85)
-2. [Оч важная лаба](./Labs/Lab_2/README.MD)
+2. [Оч важная лаба](./Labs/Lab_2/README.md)
+2. [Оч важная лаба3](./Labs/Lab_2/miet_logo.pdf)
 
 ---
