@@ -36,11 +36,11 @@
 Мгновенные значения гармонического тока и напряжения имеют следующий вид:
 
 ```math
-i(t)=I_m*sin(\omega*t+\phi)=I_m*cos(\omega*t+\phi+90^{\degree})
+i(t)=I_m*sin(\omega*t+\phi)=I_m*cos(\omega*t+\phi+90\degree)
 ```
 
 ```math
-u(t)=U_m*sin(\omega*t+\phi)=U_m*cos(\omega*t+\phi+90^{\degree})
+u(t)=U_m*sin(\omega*t+\phi)=U_m*cos(\omega*t+\phi+90\degree)
 ```
 
 *   $i$ - мгновенное значение тока, А;
