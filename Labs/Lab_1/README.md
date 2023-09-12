@@ -6,7 +6,7 @@
 
 ## Необходимое ПО
 
-**[MultiSim NI](https://onedrive.live.com/?cid=a4e122951888dc80&id=A4E122951888DC80%2125079&ithint=folder&authkey=%21AKAmqIpYw7LEpS8)**
+**[MultiSim NI](https://onedrive.live.com/?authkey=%21AM%2DwBKXV%2D0kQXlE&id=A4E122951888DC80%2125389&cid=A4E122951888DC80)**
 
 ## Порядок выполнения лабораторной работы
 
