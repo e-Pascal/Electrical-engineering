@@ -1,2 +1,3 @@
 *.code-workspace
-*./Bdz
+*./Bdz/bdz_1
+/README.md
