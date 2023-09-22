@@ -152,7 +152,8 @@
 ---
 ## Полезные ресурсы и материалы в Интернете
 
-**[MultiSim NI](https://onedrive.live.com/?authkey=%21AM%2DwBKXV%2D0kQXlE&id=A4E122951888DC80%2125389&cid=A4E122951888DC80)**
+**[MultiSim (14 версия)](https://1drv.ms/f/s!AoDciBiVIuGkgcgmG2JVu_3WKguY6A?e=6teO9R)**  
+**[Altium Designer (22 версия)](https://1drv.ms/f/s!AoDciBiVIuGkgcgOZE0orQqjbMMPLg?e=GSQFow)**
 
 ---
 ## Обратная связь и преподаватели
