@@ -194,9 +194,9 @@ $-\frac{u_2}{i_2}=R_2+\frac{1}{n^2}\frac{u_1}{i_1}$; т.е. $R_{1y}=n^2R_2$, г�
 ```math
 -\frac{u_2}{\frac{di_2}{dt}}=L_2=\frac{\frac{1}{n}u_1}{n\frac{di_1}{dt}};
 ```
-   т.е. 
+т.е. 
    
-   ```math
+```math
    n^2L_2\frac{di_1}{dt}=u_1=L_Э\frac{di_1}{dt}
 ```
 
@@ -205,7 +205,8 @@ $-\frac{u_2}{i_2}=R_2+\frac{1}{n^2}\frac{u_1}{i_1}$; т.е. $R_{1y}=n^2R_2$, г�
 ```math
  -\frac{i_2}{\frac{du_2}{dt}}=C_2=\frac{ni_1}{\frac{1}{n}\frac{du_1}{dt}};
 ```
-    т.е. 
+
+т.е. 
 
 ```math
 \frac{1}{n^2}C_2\frac{du_1}{dt}=i_1=C_Э\frac{du_1}{dt}
