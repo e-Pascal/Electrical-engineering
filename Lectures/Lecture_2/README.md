@@ -154,3 +154,10 @@ $0 < K < 1$- безразмерный коэффициент, показываю
 ```math
 u_1=L_1\frac{di_1}{dt} \pm \sqrt{l_1L_2}\frac{di_2}{dt}=\sqrt{L_1}\left(\sqrt{L_1}\frac{di_1}{dt} + \sqrt{L_2}\frac{di_2}{dt}\right)
 ```
+
+```math
+u_2=\pm\sqrt{L_1L_2}\frac{di_1}{dt} + L_2\frac{di_2}{dt}=\sqrt{L_2}\left(\sqrt{L_1}\frac{di_1}{dt} +\sqrt{L_2}\frac{di_2}{dt}\right)
+```
+
+Отношение:
+
