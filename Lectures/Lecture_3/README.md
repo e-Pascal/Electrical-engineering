@@ -25,3 +25,5 @@ u_C=C\frac{du}{dt};
 \sum_K i_K=0
 ```
 
+<p align="center" > <img src="./pic/p1.png"></p>
+<p align="center" >Рисунок 2 - 23 </p>
