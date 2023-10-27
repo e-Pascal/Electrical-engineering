@@ -105,3 +105,5 @@ i_{ВХ}=\sum i= \sum \frac{1}{L_K} \int u_Kdt= \sum \frac{1}{L_K} \left\{ \int 
 R=(\varphi- \varphi \div )
 ```
 
+<p align="center" > <img src="./pic/p3.png"></p>
+<p align="center" >Рисунок 2 - 25 </p>
