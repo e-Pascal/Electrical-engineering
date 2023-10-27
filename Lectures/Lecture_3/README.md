@@ -170,3 +170,10 @@ L_Э= \sum_K L_K
 ```
 
 Для фрагмента некоторой цепи, изображенной на рис. 2-27, контурное уравнение можно записать, суммировав напряжение на группах однотипных элементов:
+
+<p align="center" > <img src="./pic/p5.png"></p>
+<p align="center" >Рисунок 2 - 27 </p>
+
+```math
+\sum e_m= \sum_m i_mR_m+\sum_m \frac{1}{C_m} \int^t_0 i_mdt +\sum_m u_{cm}(0)+\sum_m L\frac{di_m}{dt}+\sum_{m,n} M_{mn}\frac{di_n}{dt}
+```
