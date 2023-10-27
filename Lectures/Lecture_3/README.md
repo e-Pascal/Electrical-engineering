@@ -78,6 +78,30 @@ R_Э=\frac{R_1R-2}{R_1+R_2}
 Если параллельно соединены конденсаторы, то
 
 ```math
-i_ВХ=\sum^n_1 i=\sum^n_1 C_K\frac{du_K}{dt}= \left\{\sum C_K\right\} \frac{du}{dt}
-
+i_ВХ=\sum^n_1 i=\sum^n_1 C_K\frac{du_K}{dt}= \left\{\sum C_K\right\} \frac{du}{dt};
 ```
+
+```math
+C_Э=\sum^n_1 C_K
+```
+
+т.е.
+
+```math
+i_{ВХ}=\sum i= \sum \frac{1}{L_K} \int u_Kdt= \sum \frac{1}{L_K} \left\{ \int u_Kdt\right\}
+```
+
+получим:
+
+```math
+\frac {1}{L_Э}= \sum^n_1 \frac{1}{L_K}
+```
+
+`II Закон Кирхгофа`
+
+Напомним, что напряжение на двухполюсных элементах это разность потенциалов на его зажимах:
+
+```math
+г=(\varphi- \varphi \div )
+```
+
