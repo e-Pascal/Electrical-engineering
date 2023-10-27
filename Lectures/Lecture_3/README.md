@@ -102,6 +102,6 @@ i_{ВХ}=\sum i= \sum \frac{1}{L_K} \int u_Kdt= \sum \frac{1}{L_K} \left\{ \int 
 Напомним, что напряжение на двухполюсных элементах это разность потенциалов на его зажимах:
 
 ```math
-г=(\varphi- \varphi \div )
+R=(\varphi- \varphi \div )
 ```
 
