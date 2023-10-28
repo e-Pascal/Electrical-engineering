@@ -37,10 +37,10 @@
 ---
 ## Лекции
 
-1.	Введение в дисциплину «Электротехника»<!--(./Lectures/Lecture_1/README.md)-->
-2.	Основные понятия электротехники<!--(./Lectures/Lecture_2/README.md)-->
-3.	Уравнения электрических цепей<!--(./Lectures/Lecture_3/README.md)-->
-4.	Расчет цепей при постоянных токах и напряжения<!--(./Lectures/Lecture_4/README.md)-->
+0.	Введение в дисциплину «Электротехника»<!--(./Lectures/Lecture_1/README.md)-->
+1.	[Основные понятия электротехники](./Lectures/Lecture_1/README.md)
+2.	[Уравнения электрических цепей](./Lectures/Lecture_2/README.md)
+4.	[Расчет цепей при постоянных токах и напряжения](./Lectures/Lecture_3/README.md)
 5.	Расчет цепей при синусоидальных токах и напряжениях<!--(./Lectures/Lecture_5/README.md)-->
 6.	Анализ сложных цепей<!--(./Lectures/Lecture_6/README.md)-->
 7.	Резонанс и частотные свойства<!--(./Lectures/Lecture_7/README.md)-->
