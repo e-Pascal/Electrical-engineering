@@ -83,3 +83,6 @@ U_{ab}=IR_Э
 I_1=\frac{U_ab}{R_1}=I\frac{R_1R_2}{(R_1+R_2)R_1}=I\frac{R_2}{R_1+R_2}
 ```
  
+ ```math
+I_2=I\frac{R_1}{R_1+R_2}
+```
