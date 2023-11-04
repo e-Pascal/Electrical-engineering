@@ -80,6 +80,6 @@ U_{ab}=IR_Э
 3. Формулы делителя тока:
 
  ```math
-I_1=\frac{U_ab}{R_1}=I\frac{R_1R_2}{(R_1+R_2)R_1}
+I_1=\frac{U_ab}{R_1}=I\frac{R_1R_2}{(R_1+R_2)R_1}=I\frac{R_2}{R_1+R_2}
 ```
  
