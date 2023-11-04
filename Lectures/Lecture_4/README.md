@@ -59,10 +59,11 @@ U_2=U\frac{R_2}{R_1+R_2}
 <p align="center" > <img src="./pic/p_2.png"></p>
 <p align="center" >Рисунок 3-2 </p>
 
+
 1. Эквивалентная замена:
 
 ```math
-\frac{1}{R-Э}=\frac{1]{R_1}+\frac{1}{R_2}
+\frac{1}{R_Э}=\frac{1}{R_1}+\frac{1}{R_2}$$
 ```
 
 или 
