@@ -113,8 +113,7 @@
 
 ---
 ## Курсовая работа (ИВТ only)
-
-*В обработке…*
+[Методические указания по выполнению курсовой работы](./Coursework/README.md)
 
 ---
 ## Промежуточная аттестация
@@ -153,8 +152,8 @@
 ---
 ## Полезные ресурсы и материалы в Интернете
 
-**[MultiSim (14 версия)](https://1drv.ms/f/s!AoDciBiVIuGkgcgmG2JVu_3WKguY6A?e=6teO9R)**  
-**[Altium Designer (22 версия)](https://1drv.ms/f/s!AoDciBiVIuGkgcgOZE0orQqjbMMPLg?e=GSQFow)**
+**[MultiSim](https://1drv.ms/f/s!AoDciBiVIuGkgcgmG2JVu_3WKguY6A?e=6teO9R)**  
+**[Altium Designer](https://1drv.ms/f/s!AoDciBiVIuGkgcV2JYSgLOXXOr3G-A?e=XFiXV9)**  
 
 ---
 ## Обратная связь и преподаватели
