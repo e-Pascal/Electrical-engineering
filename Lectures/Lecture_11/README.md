@@ -6,28 +6,28 @@
 <p align="center" >Рисунок 8 - 1</p> 
 Рассмотрим свойства четырехполюсников в установившемся режиме при периодических синусоидальных токах и напряжениях. Это позволит в дальнейшем применить полученные результаты для анализа цепей при других формах сигналов.  
 
-Для анализа свойств четырехполюсника установим зависимость между входным напряжением ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/b4947a9e-6005-4cb5-ac3c-936307da9084) и токами
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/a6d5e522-008c-4419-843a-abe78a600886) и входными
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/43e604a6-00df-4e79-a009-9afe18aadb17) и
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/4153664d-c12e-402a-b46e-d11d97219514) (рис. 8-2, где П - пассивная схема).
+Для анализа свойств четырехполюсника установим зависимость между входным напряжением $\dot{U}_1$ и токами
+$\dot{I}_1$ и входными
+$\dot{U}_2$ и
+$\dot{I}_2$ (рис. 8-2, где П - пассивная схема).
 
  
 <p align="center" > <img src="./pic/p3.png"></p>
 <p align="center" >Рисунок 8 - 2</p>
 
-При выборе направлений напряжений и токов, указанных на рисунке, энергия передается от входа (клемма a-b) к сопротивлению нагрузки ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/ff80f8d1-59c0-4787-a1cb-6e9dc965cb8d)
+При выборе направлений напряжений и токов, указанных на рисунке, энергия передается от входа (клемма a-b) к сопротивлению нагрузки $Z_H$
   (клеммы c-d).  
 Составим уравнение цепи методом контурных токов. В первый контур включим входные зажимы, во второй контур включим сопротивление нагрузки  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/91607b4a-0b3b-4d04-aeae-904894d1cd80).
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/c41650ca-5ac3-4b71-9af0-3e497bb34a27)  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/7d08f0cc-e0b0-4643-b7d9-72b8e85c06d2)  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/3a225eca-3e99-480f-adf8-e18704c687d3).  
-Обозначим  ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/ce909eb6-2f14-4e1e-8307-1ab875ab5fa2),
-где  ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/a34fe13b-4920-4d5a-b121-94ec470f039a) - часть сопротивления второго контура, входящая в состав четырехполюсника.  
-Учитывая, что  ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/2371a0c5-a576-441b-9ff6-28f439302f87):  
- ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/af7893b7-8847-4a50-8f7e-fe7c71c4ce6a)  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/3d281044-cb63-459f-9a86-3bba7bea830f)  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/f38e5078-fb15-48a1-a3c1-4a33fb8ea7fa).  
+$\overline{Z}_H$.  
+$\overline{Z}_H$ $\dot{I}_1$ + $\overline{Z}_1{}_2$ $\dot{I}_2$ + $\overline{Z}_1{}_3$ $\dot{I}_3$ + ... + $\overline{Z}_1{}_n$ $\dot{I}_n$ = $\dot{U}_1$  
+$\overline{Z}_2{}_1$ $\dot{I}_1$ + $\overline{Z}_2{}_2$ $\dot{I}_2$ + $\overline{Z}_2{}_3$ $\dot{I}_3$ + ... + $\overline{Z}_2{}_n$ $\dot{I}_n$ = 0  
+$\overline{Z}_n{}_1$ $\dot{I}_1$ + $\overline{Z}_n{}_2$ $\dot{I}_2$ + $\overline{Z}_n{}_3$ $\dot{I}_3$ + ... + $\overline{Z}_n{}_n$ $\dot{I}_n$ = 0.  
+Обозначим  $\overline{Z}_2{}_2$ = $\overline{Z'}_1{}_2$ + $\overline{Z}_H$,
+где  $\overline{Z}_2{}_2$ - часть сопротивления второго контура, входящая в состав четырехполюсника.  
+Учитывая, что $\dot{I}_2$ $\overline{Z}_H$ = $\dot{U}_2$:  
+$\overline{Z}_1{}_1$ $\dot{I}_1$ + $\overline{Z}_1{}_2$ $\dot{I}_2$ + ... + $\overline{Z}_1{}_n$ $\dot{I}_n$ = $\dot{U}_1$  
+$\overline{Z}_2{}_1$ $\dot{I}_1$ + $\overline{Z}_2{}_2$ $\dot{I}_2$ + ... + $\overline{Z}_2{}_n$ $\dot{I}_n$ = - $\dot{U}_2$  
+$\overline{Z}_n{}_1$ $\dot{I}_1$ + $\overline{Z}_n{}_2$ $\dot{I}_2$ + ... + $\overline{Z}_n{}_n$ $\dot{I}_n$ = 0.  
 
 Все остальные уравнения содержат в правой части нули, что соответствует пассивному четырехполюснику.  
 Решение системы уравнений:  
