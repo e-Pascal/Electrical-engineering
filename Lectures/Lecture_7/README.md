@@ -43,3 +43,5 @@ I = \frac{U}{\sqrt{R^2+(wL-\frac{1}{wC})^2}}
 ```math
 ϕ=arctg'\frac{ω'L-\frac{1}{ω'C}}{R}
 ```
+<p align="center" > <img src="./pic/6-1.png"></p>
+<p align="center" >Рис. 6-1</p>
