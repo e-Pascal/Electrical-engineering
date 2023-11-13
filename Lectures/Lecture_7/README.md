@@ -2,7 +2,7 @@
 В предыдущих главах введено понятие реактивного сопротивления конденсатора
 
 ```math
-X_c=\frac{1}{wC}
+X_c=\frac{1}{ωC}
 ```
 
 и катушки индуктивности
@@ -28,7 +28,7 @@ X_L=ωL
 
 `Основное определение резонанса:`
 ```math
-'ϕ''(ω)=0 \ (на \ входе \ двухполюсника).
+ϕ(ω)=0 \ (на \ входе \ двухполюсника).
 ```
 
 Рассмотрим некоторые характеристики цепи при резонансе. Для
@@ -36,11 +36,11 @@ X_L=ωL
 и напряжением равны:
 
 ```math
-I = \frac{U}{\sqrt{R^2+(wL-\frac{1}{wC})^2}}
+I = \frac{U}{\sqrt{R^2+(ωL-\frac{1}{ωC})^2}}
 ```
 
 ```math
-ϕ=arctg'\frac{ω'L-\frac{1}{ω'C}}{R}
+ϕ=arctg\frac{L-\frac{1}{ωC}}{R}
 ```
 <p align="center" > <img src="./pic/6-1.PNG"></p>
 <p align="center" >Рис. 6-1</p>
@@ -103,13 +103,13 @@ d = \frac{1}{Q} = \frac{R}{p}\ - \ затухание \ контура.
 мгновенные значения мощностей на элементах $L, R, C$.
 
 ```math
-p_R = \sqrt{2'}I'sinω''t*\sqrt{2'}U'sinω''t=U'I'(1-cos2ω't)=I^2R'(1-cos2ω''t);
+p_R = \sqrt{2}Isinωt*\sqrt{2}Usinωt=UI(1-cos2ωt)=I^2R(1-cos2ωt);
 ```
 ```math
-p_L = \sqrt{2'}I'sinω''t*\sqrt{2'}U_L'sin'(ω''t+Pi/2)=I'U_Lsin'2ω''t;
+p_L = \sqrt{2}Isinωt*\sqrt{2}U_Lsin(ωt+Pi/2)=IU_Lsin2ωt;
 ```
 ```math
-p_C = \sqrt{2'}I'sinω''t*\sqrt{2'}U_C'sin'(ω''t-Pi/2)=-I'U_Csin'2ω''t;
+p_C = \sqrt{2}Isinωt*\sqrt{2}U_Csin(ωt-Pi/2)=-IU_Csin2ωt;
 ```
 
 Поскольку, $U_L=U_C$, то $p_L=− p_C$ . Это значит, что происходит обмен
@@ -139,7 +139,7 @@ W = \frac{LI_m^2}{2}=\frac{CU_m^2}{2}=const
 <p align="center" > <img src="./pic/p6-3.PNG"></p>
 <p align="center" >Рис. 6-3</p>
 
-Напряжение двухполюсника $U$ = $Z$' $I$ , где
+Напряжение двухполюсника $U$ = $Z$ $I$ , где
 
 ```math
 Z = R+j(ωL-\frac{1}{ωC}),
