@@ -200,3 +200,55 @@ U + Ie^{jϕ_i}Ze^{jarctg\frac{ωL-1/ωC}{R}}= Ue^{jϕ_u};
 
 <p align="center" > <img src="./pic/p6-5.PNG"></p>
 <p align="center" >Рис. 6-5</p>
+
+2. 	Последовательная RLC-цепочка; приложенное напряжение постоянно по величине U = const .
+
+`Ток в цепи`
+
+```math
+\dot{I}= \dot{U} \overline{Y}\frac{1}{Z}=\frac{1}{R+j(ωL-1/ωc)}
+```
+```math
+\dot{U_R}= R\dot{I}; \ \dot{U_C}=\overline{Z_C}\dot{I}; \ \dot{U_L}=\overline{Z_L}\dot{I}
+```
+
+`или для действующих значений:`
+
+```math
+I = \frac{U}{\sqrt{R^2+(ωL-\frac{1}{ωC})^2}};
+```
+
+```math
+U_R = \frac{UR}{\sqrt{R^2+(ωL-\frac{1}{ωC})^2}};
+```
+
+```math
+U_C = U\frac{1/ωC}{\sqrt{R^2+(ωL-\frac{1}{ωC})^2}};
+```
+
+```math
+U_L = U\frac{ωL}{\sqrt{R^2+(ωL-\frac{1}{ωC})^2}};
+```
+
+```math
+U_LC = \frac{U(ωL-1/ωC)}{\sqrt{R^2+(ωL-\frac{1}{ωC})^2}};
+```
+
+При построении графиков частотных зависимостей учитывается, что при резонансе X=0, тогда
+
+```math
+I=\frac{U}{R}; \ U_C=\frac{U1/ω_0C}{R}; \ U_L = \frac{Uω_0L}{R};
+```
+
+```math
+U_R = U; \ U_L=U_C
+```
+
+При $ω$ = 0 I = 0; $U_R$ = 0; $U_L$ = 0; $U_C$ = U; X = ∞.
+
+При $ω$ = ∞ I = 0; $U_R$ = 0; $U_L$ = U; $U_C$ = 0; X = ∞.
+
+Зависимость тока и напряжений элементов от частоты приведены на рис. 6-6.
+
+<p align="center" > <img src="./pic/p6-6.PNG"></p>
+<p align="center" >Рис. 6-6</p>
