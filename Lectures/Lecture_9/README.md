@@ -210,5 +210,25 @@ I^2 = \frac{1}{T}\int^T_0i^2dt=\frac{1}{T}\int^T_0(i_0+i_1+i_2+...+i_k+...)^2dt=
 ```
 
 ```math
-=\sum^{ė=∞}_{ė=0}\frac{1}{T}\int^T_0i^2_kdt+\sum^{s=∞ \ g=∞}_{g=0 \ s=0 \ g≠s}
+=\sum^{ė=∞}_{ė=0}\frac{1}{T}\int^T_0i^2_kdt+\sum^{s=∞ \ g=∞}_{g=0 \ s=0 \ g≠s}\frac{1}{T}\int^T_0i_gi_sdt = 
+```
+
+```math
+=\sum^{ė=∞}_{ė=0}\frac{1}{T}\int^T_0i^2_kdt=\sum^{ė=∞}_{ė=0}I^2_0+I^2_1+I^2_2+...+I^2_K+...
+```
+
+так как при g ≠ s:
+
+```math
+\int^T_0i_gi_sdt=\int^T_0I_{gm}I_{sm}sin(gωt+φ_g)sin(sωt+φ_s)dt=
+```
+
+```math
+\frac{1}{2}I_{gm}I_{sm} \ {\{}\int^T_0cos [ (g-s)ωt+φ_g-φ_s ]dt-cos[(g-s)ωt+φ_g-φ_s]dt {\}} = 0
+```
+
+тогда:
+
+```math
+I^2 = \frac{1}{T}\sum^∞_0i^2_Kdt=\sum^∞_0I^2_K = I^2_0+I^2_1+I^2_2+...+I^2_K+...
 ```
