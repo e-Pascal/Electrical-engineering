@@ -152,8 +152,8 @@
 ---
 ## Полезные ресурсы и материалы в Интернете
 
-**[MultiSim](https://1drv.ms/f/s!AoDciBiVIuGkgcgmG2JVu_3WKguY6A?e=6teO9R)**  
-**[Altium Designer](https://1drv.ms/f/s!AoDciBiVIuGkgcV2JYSgLOXXOr3G-A?e=XFiXV9)**  
+**[MultiSim](https://1drv.ms/f/s!AoDciBiVIuGkgcYtlMD9cU_23xJWQQ?e=FbA0yJ)**  
+**[Altium Designer](https://1drv.ms/f/s!AoDciBiVIuGkgcV2JYSgLOXXOr3G-A?e=51rPlc)**  
 
 ---
 ## Обратная связь и преподаватели
