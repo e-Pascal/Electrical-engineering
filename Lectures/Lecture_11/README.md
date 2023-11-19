@@ -19,52 +19,91 @@ $\dot{I}_2$ (рис. 8-2, где П - пассивная схема).
 
 При выборе направлений напряжений и токов, указанных на рисунке, энергия передается от входа (клемма a-b) к сопротивлению нагрузки $Z_H$
   (клеммы c-d).  
-Составим уравнение цепи методом контурных токов. В первый контур включим входные зажимы, во второй контур включим сопротивление нагрузки  
-$$\overline{Z}_H$$.
+Составим уравнение цепи методом контурных токов. В первый контур включим входные зажимы, во второй контур включим сопротивление нагрузки $\overline{Z}_H$.
 
 ```math
-\overline{Z}_H \dot{I}_1 + \overline{Z}_{12} \dot{I}_2 + \overline{Z}_1{}_3 \dot{I}_3 + ... + \overline{Z}_1{}_n \dot{I}_n = \dot{U}_1
+\overline{Z}_H \dot{I}_1 + \overline{Z}_{12} \dot{I}_2 + \overline{Z}_{13} \dot{I}_3 + ... + \overline{Z}_{1n} \dot{I}_n = \dot{U}_1
+```
+```math
+\overline{Z}_{21} \dot{I}_1 + \overline{Z}_{22} \dot{I}_2 + \overline{Z}_{23} \dot{I}_3 + ... + \overline{Z}_{2n} \dot{I}_n = 0
+```
+```math
+\overline{Z}_{n1} \dot{I}_1 + \overline{Z}_{n2} \dot{I}_2 + \overline{Z}_{n3} \dot{I}_3 + ... + \overline{Z}_{nn} \dot{I}_n = 0.  
 ```
 
-$\overline{Z}_2{}_1$ $\dot{I}_1$ + $\overline{Z}_2{}_2$ $\dot{I}_2$ + $\overline{Z}_2{}_3$ $\dot{I}_3$ + ... + $\overline{Z}_2{}_n$ $\dot{I}_n$ = 0  
-$\overline{Z}_n{}_1$ $\dot{I}_1$ + $\overline{Z}_n{}_2$ $\dot{I}_2$ + $\overline{Z}_n{}_3$ $\dot{I}_3$ + ... + $\overline{Z}_n{}_n$ $\dot{I}_n$ = 0.  
+
 Обозначим  $\overline{Z}_2{}_2$ = $\overline{Z'}_1{}_2$ + $\overline{Z}_H$,
 где  $\overline{Z}_2{}_2$ - часть сопротивления второго контура, входящая в состав четырехполюсника.  
 Учитывая, что $\dot{I}_2$ $\overline{Z}_H$ = $\dot{U}_2$:  
-$\overline{Z}_1{}_1$ $\dot{I}_1$ + $\overline{Z}_1{}_2$ $\dot{I}_2$ + ... + $\overline{Z}_1{}_n$ $\dot{I}_n$ = $\dot{U}_1$  
-$\overline{Z}_2{}_1$ $\dot{I}_1$ + $\overline{Z}_2{}_2$ $\dot{I}_2$ + ... + $\overline{Z}_2{}_n$ $\dot{I}_n$ = - $\dot{U}_2$  
-$\overline{Z}_n{}_1$ $\dot{I}_1$ + $\overline{Z}_n{}_2$ $\dot{I}_2$ + ... + $\overline{Z}_n{}_n$ $\dot{I}_n$ = 0.  
+```math
+\overline{Z}_{11} \dot{I}_1 + \overline{Z}_{12} \dot{I}_2 + ... + \overline{Z}_{1n} \dot{I}_n = \dot{U}_1
+```
+```math
+\overline{Z}_{21} \dot{I}_1 + \overline{Z}_{22} \dot{I}_2 + ... + \overline{Z}_{2n} \dot{I}_n = - \dot{U}_2
+```
+```math
+\overline{Z}_{n1} \dot{I}_1 + \overline{Z}_{n2} \dot{I}_2 + ... + \overline{Z}_{nn} \dot{I}_n = 0.
+```
 
 Все остальные уравнения содержат в правой части нули, что соответствует пассивному четырехполюснику.  
 Решение системы уравнений:  
- ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/f0731544-3fa3-4780-b286-d82a454c0e74);  
- ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/59a6f0c8-8192-49d5-b065-2874bfddec96).  
-Отношения  ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/f421f215-2a84-42ec-a930-20ce770b1419)
-,  ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/1046ee61-57ab-410d-8746-9f516f8d7169)
- имеют размерность проводимости.  
+```math
+\dot{I}_1 = \frac{\Delta_{11}}{\Delta} \dot{U}_1 - \frac{\Delta_{21}}{\Delta} \dot{U}_2;
+``` 
+```math
+\dot{I}_2 = \frac{\Delta_{12}}{\Delta} \dot{U}_1 - \frac{\Delta_{22}}{\Delta} \dot{U}_2;
+```  
+Отношения  $\frac{\Delta_{11}}{\Delta}$,  $\frac{\Delta_{12}}{\Delta}$ имеют размерность проводимости.  
 Обозначим  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/b6d9d30e-e93c-4546-9fba-0158531dd9eb);  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/f90b6646-d84d-4cb3-9411-7417706b44e9);  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/2fb45f37-9f27-4de4-ad20-92f5f4220dba);  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/850f12d9-1244-45fd-8eb8-0baa7c0874f2),  
+```math
+\frac{\Delta_{11}}{\Delta} = \overline{Y}_{11}; \frac{\Delta_{12}}{\Delta} = \overline{Y}_{21}; -\frac{\Delta_{22}}{\Delta} = \overline{Y}_{22}; -\frac{\Delta_{21}}{\Delta} = \overline{Y}_{12}.
+```  
 тогда уравнения четырехполюсника принимают вид:  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/7e1bfd1b-d830-4ab8-9685-4ed8e5c983f1);  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/7fbf9a58-45ed-4125-a55b-d8322162b1aa).  
+```math
+\dot{I}_1 = \overline{Y}_{11} \dot{U}_1 + \overline{Y}_{12} \dot{U}_2;
+```
+```math
+\dot{I}_2 = \overline{Y}_{21} \dot{U}_1 + \overline{Y}_{22} \dot{U}_2.
+```    
+ 
 В матричной форме:  
- ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/5e6de1b2-e293-4c9e-b43c-4a83f3baecf4),  
+```math
+\begin{bmatrix}
+\overline{Y}_{11} & \overline{Y}_{12}\\
+\overline{Y}_{21} & \overline{Y}_{22}
+\end{bmatrix}.
+\begin{bmatrix}
+\dot{U}_1\\
+\dot{U}_2
+\end{bmatrix} =
+\begin{bmatrix}
+\dot{I}_1\\
+\dot{I}_2
+\end{bmatrix},
+``` 
 или  
- ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/5418795e-1973-4448-979a-eae4df6108db).  
-Для линейных уравнений, соответствующих линейным цепям ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/1639616f-9b14-405a-991d-d1c4e70a5fb2)
- , поэтому  ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/6f40d31d-98ec-450b-8a1a-2fabd779c827).  
-Указанные коэффициенты называются Y-параметрами, а матрица Y-матрицей четырехполюсника. Как видно из записи уравнений четырехполюсников в Y-параметрах с учетом уравнения  ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/a4044079-af92-4710-b674-e0fb62d923d9)
-, пассивный четырехполюсник характеризуется тремя независимыми параметрами. Физический смысл Y-параметров можно определить по режимам короткого замыкания на выходе ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/b969e604-7779-4155-ba13-db5d74462085)
-  и на входе ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/f1d9b3b0-4c1e-4c25-82ba-5502f6aef785).  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/43ca8062-dcce-452d-be52-4bd33a78d7fb) - входная проводимость при коротком замыкании на выходе.  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/ca877ba7-53a3-4860-9eff-1b76fb12404c) - передаточная (взаимная) проводимость при коротком замыкании на входе.  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/8e6e7eff-40d9-4205-a416-21906fe3a641) - передаточная проводимость при коротком замыкании на выходе.  
-![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/4d8758b1-4fec-4a2c-ada5-f89fac314487) - выходная проводимость при коротком замыкании на входе.  
+ $\mathbf{\overline{Y} \dot{U} = \dot{I}}$.  
+Для линейных уравнений, соответствующих линейным цепям $\Delta_{12} = \Delta_{21}$
+ , поэтому  $Y_{12} = - Y_{21}$.  
+Указанные коэффициенты называются Y-параметрами, а матрица Y-матрицей четырехполюсника. Как видно из записи уравнений четырехполюсников в Y-параметрах с учетом уравнения  $Y_{12} = - Y_{21}$
+, пассивный четырехполюсник характеризуется тремя независимыми параметрами. Физический смысл Y-параметров можно определить по режимам короткого замыкания на выходе $(U_2 = 0)$
+  и на входе $(U_1 = 0)$.
+```math
+Y_{11} = (\frac{\dot{I}_1}{\dot{U}_1})_{\dot{U}_2 = 0} - \text{входная проводимость при коротком замыкании на выходе}.  
+```  
+```math
+Y_{12} = (\frac{I_1}{U_2})_{\dot{U}_1 = 0} - \text{передаточная (взаимная) проводимость при коротком замыкании на входе}.  
+```  
+```math
+Y_{21} = (\frac{I_2}{U_1})_{\dot{U}_2 = 0} - \text{передаточная проводимость при коротком замыкании на выходе}.
+```  
+```math
+Y_{22} = (\frac{I_2}{U_2})_{U_1 = 0} - \text{выходная проводимость при коротком замыкании на входе}.
+```  
 Решим систему уравнений относительно напряжений:  
- ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/3e0bd241-fd8c-4d1c-aa14-7374e323df49),  
+ ```math
+\mathbf{\dot{U} = \overline{Y}^{-1} \dot{I} = \overline{Z} \dot{I}},
+```
 где ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/5f3445ba-9f0a-493f-bda4-88407bddeeb5)  
 Или в развернутом виде  
 ![image](https://github.com/e-Pascal/Electrical-engineering/assets/149309758/d216d560-f275-4343-b065-2ee1c63c32f8)  
