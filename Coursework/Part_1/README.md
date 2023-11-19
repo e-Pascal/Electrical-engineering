@@ -84,7 +84,7 @@
 
 ## Сопроводительные материалы
 
-[Справочник номиналных рядов](./appendix_D/README.md)  
+[Справочник номиналных рядов](././appendix_D/README.md)  
 [Перечень нормативных документов](./Coursework/appendix_A/README.md)  
 [Методические указанию по оформлению схемы](./Coursework/appendix_B/README.md)  
 
