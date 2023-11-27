@@ -217,5 +217,13 @@ I_2=I\frac{R_1}{R_1+R_2}
 
 По теореме об эквивалентном генераторе схема преобразуется к виду, изображенному на рис. 3-8.
 
-<p align="center" > <img src="./pic/p_.png"></p>
+<p align="center" > <img src="./pic/p_8.png"></p>
 <p align="center" >Рисунок 3-8 </p>
+
+$$I=\frac{U_{XX}}{R_{ВН}+R_Н} ; P_Н=I^2 R_Н=\frac{U^2_{XX}R_Н}{(R_{ВН}+R_Н)^2}$$
+
+Максимум $P_H$ при $\frac{ dP_H}{dR_H}=0$
+
+```math
+ \frac{ dP_H}{dR_H}=U^2_{XX}\frac{(R_{ВН}+R_H)^2-R_H 2(R_{ВН}+R_H)}{(R_{ВН}+R_H)^4}=0, R_H=R_{ен}
+```
