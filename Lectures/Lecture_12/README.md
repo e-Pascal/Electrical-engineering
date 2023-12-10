@@ -177,5 +177,71 @@ $\overline{Z}_{21}$ определяем из выражения для $U_2$, �
 \overline{Z}_{1XX} = \frac{A}{C}; \overline{Z}_{2XX} = \frac{D}{C}
 ```
 ```math
-\overline{Z}_{1\hat{E} \cq{C}}
+\overline{Z}_{1КЗ} = \frac{B}{D}; \overline{Z}_{2КЗ} = \frac{B}{A}.
 ```
+Или
+```math
+\frac{\overline{Z}_{1XX}}{\overline{Z}_{2XX}} = \frac{\overline{Z}_{1КЗ}}{\overline{Z}_{2КЗ}}
+```
+Для определения параметра А запишем тождество
+```math
+\frac{\overline{Z}_{1X}}{\overline{Z}_{2X} - \overline{Z}_{2K}} = \frac{A}{C(\frac{D}{C} - \frac{B}{A})} = \frac{A^2 C}{C(AD-BC)} = A^2
+```
+откуда
+```math
+A = \sqrt{\frac{\overline{Z}_{1X}}{\overline{Z}_{2X} - \overline{Z}_{2K}}}
+```
+После соответствующих математических преобразований получаем
+```math
+B = A\overline{Z}_{2K}; D = C\overline{Z}_{2K}; C = \frac{A}{\overline{Z}_{1X}}
+```
+Аналогичным образом, используя амперметр, вольтметр и ваттметр, можно определить другие параметры четырехполюсника. Если, например, известны показания приборов:
+```math
+\begin{equation}
+\begin{split}
+& U_{1X} = 100 В, P_{1K} = 0,5 кВт \\
+& I_{1X} = 20 А, U_{2K} = 56,6 В, \\
+& P_{1X} = 2 кВт, I_{2K} = 8 А, \\
+& U_{1K} = 70,7 В, \varphi_{1K}>0, \varphi_{2K}<0, \\
+& I_{1K} = 10 А, P_{2K} = 320 кВт,
+\end{split} 
+\end{equation} 
+```
+то можно определить
+```math
+\begin{equation}
+\begin{split}
+& \overline{Z}_{1X} = \frac{U_{1X}}{I_{1X}} = 5 Ом; \cos{\varphi_{1X}} = \frac{2000}{100 \cdot 20} = 1; \varphi_{1X} = 0; \overline{Z}_{1X} = 50e^{jo}; \
+& \overline{Z}_{1K} = \frac{U_{1K}}{I_{1K}} = \frac{70,7}{10} = 7,07 Ом;  \cos{\varphi_{1K}} = \frac{P_{1K}}{U_{1K} \cdot I_{1K}} = \frac{500}{707} = 0,707; \
+& \varphi_{1K} = \frac{\pi}{4}; \overline{Z}_{1K} = 5 \sqrt{2} e^{j\frac{\pi}{4}} Ом; \
+& \overline{Z}_{2K} = \frac{U_{2K}}{I_{2K}} = \frac{56,6}{8} = 7,07 Ом; \cos{\varphi_{2K}} = \frac{320}{56,6 \cdot 8} = 0,707; \
+& \varphi_{2K} = -\frac{\pi}{4}; \overline{Z}_{2K} = 5 \sqrt{2} e^{-j\frac{\pi}{4}} Ом; \
+& \frac{\overline{Z}_{1X}}{\overline{Z}_{2X}} = \frac{\overline{Z}_{1K}}{\overline{Z}_{2K}}; \overline{Z}_{2X} = \frac{\overline{Z}_{1X} \cdot \overline{Z}_{2X}}{\overline{Z}_{1K}};
+\end{split} 
+\end{equation}
+```
+```math
+\overline{Z}_{2X} = \frac{5 \cdot 5 \sqrt{2} e^{-j\frac{\pi}{4}}}{5 \sqrt{2} e^{-j\frac{\pi}{4}}} = 5 e^{-j\frac{\pi}{2}}
+```
+откуда
+```math
+\begin{equation}
+\begin{split}
+& A = \sqrt{\frac{\overline{Z}_{1X}}{\overline{Z}_{2X} - \overline{Z}_{2K}}} = \sqrt{\frac{5}{-j5-5\sqrt{2}e^{-j\frac{\pi}{4}}}} = \sqrt{\frac{1}{-j-1+j}} = j \
+& B = (5 -5j)j = (5+5j) Ом; C = \frac{A}{\overline{Z}_{1X}} = \frac{j}{5} = 0,2j Ом^{-1}; \
+& D = C\overline{Z}_{2X} = 0,2j(-5j) = 1.
+\end{split} 
+\end{equation}
+```
+Вспомнив, что для Т-образной эквивалентной схемы:
+```math
+\overline{Z}_1 = \frac{A-1}{C}; \overline{Z}_2 = \frac{D-1}{C}; \overline{Z}_3 = \frac{1}{C}
+```
+получим:
+```math
+\overline{Z}_3 = -5j; \overline{Z}_1 = 5+5j; \overline{Z}_2 = 0
+```
+Такой четырехполюсник изображен на рис. 8-8.
+
+<p align="center" > <img src="./pic/p7.png"></p>
+<p align="center" >Рис. 8-8</p
