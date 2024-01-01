@@ -51,5 +51,7 @@ I_{CP}^`=\frac{2}{T}\int_0^{T/2} I_m \sin \omega t dt= \frac{-2}{T} * \frac{I_mT
 1. Сложение двух (и более) синусоидальных функций одинаковой частоты дает также синусоидальную функцию той же частоты. Действительно, сложим, например, два тока:
 
 ```math
-
+I_{m1}\sin(\omega t +\Psi_1)+
+I_{m1}\sin(\omega t +\Psi_1)=
+I_{m1}\cos\omega t \sin\Psi_1+I_{m2}\cos\omega t \sin\Psi_2+I_{m}\cos\omega t \sin\Psi_2=(I_{m1}\cos \Psi_1 + I_{m2} \cos \Psi_2) \sin \omega t +(I_{m1} \sin \Psi_1+ I_{m2} \sin \Psi_2) \cos \omega t= I_m \sin (\omega t+\Psi)
 ```
