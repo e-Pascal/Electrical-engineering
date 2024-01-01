@@ -55,3 +55,8 @@ I_{m1}\sin(\omega t +\Psi_1)+
 I_{m1}\sin(\omega t +\Psi_1)=
 I_{m1}\cos\omega t \sin\Psi_1+I_{m2}\cos\omega t \sin\Psi_2+I_{m}\cos\omega t \sin\Psi_2=(I_{m1}\cos \Psi_1 + I_{m2} \cos \Psi_2) \sin \omega t +(I_{m1} \sin \Psi_1+ I_{m2} \sin \Psi_2) \cos \omega t= I_m \sin (\omega t+\Psi)
 ```
+
+где 
+```math
+I_m = \sqrt { ( I_{m1} \cos \Psi_1 + I_{m2} \cos \Psi_2 )^2 + ( I_{m1} \sin \Psi_1 + I_{m2} \sin \Psi_2 )^2 } 
+```
