@@ -60,3 +60,7 @@ I_{m1}\cos\omega t \sin\Psi_1+I_{m2}\cos\omega t \sin\Psi_2+I_{m}\cos\omega t \s
 ```math
 I_m = \sqrt { ( I_{m1} \cos \Psi_1 + I_{m2} \cos \Psi_2 )^2 + ( I_{m1} \sin \Psi_1 + I_{m2} \sin \Psi_2 )^2 } 
 ```
+
+```math
+\Psi=  \arctan \frac{I_{m1} \sin \Psi_1 + I_{m2} \sin \Psi_2}{I_{m1} \cos \Psi_1 + I_{m2} \cos \Psi_2}
+```
