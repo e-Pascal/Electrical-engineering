@@ -21,3 +21,6 @@ $f$ - частота.
 $T$ - период.
 
 $\Psi_i$, $\Psi_u$, $\Psi_e$ - начальные фазы функции.
+
+<p align="center" > <img src="./pic/p1.png"></p>
+<p align="center" >Рисунок 4 - 1 </p>
