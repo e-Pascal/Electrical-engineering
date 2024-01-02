@@ -75,3 +75,14 @@ I_m = \sqrt { ( I_{m1} \cos \Psi_1 + I_{m2} \cos \Psi_2 )^2 + ( I_{m1} \sin \Psi
 
 ```math
 \frac{di}{dt}= \omega I_m \cos (\omega t + \Psi_i)= \omega I_m \sin(\omega t + \Psi_i + \frac{\pi}{2})= A \sin(\omega t + \Psi)
+```
+
+где $A=\omega I_m$
+
+$$ \Psi=(\Psi+\frac{\pi}{2}) $$
+
+3. Интегрирование синусоидальной функции дает синусоидальную функцию той же частоты. Для определенности вычислим напряжение на конденсаторе при синусоидальном токе.
+
+```math
+U_c=\frac{1}{C} \int_0^t idt+ U_c(0)=\frac{1}{C} \int_0^t I_m \sin(\omega t + \Psi_i) dt+U_c(0)=\frac{-1}{\omega C} I_m|_0^t \cos(\omega t + \Psi_i)+U_c(0)= \frac{I_m}{\omega C}(\sin(\omega t +\Psi_i-\frac{\pi}{2}))=\frac{I_m}{\omega C} \sin (\omega t+ \Psi)
+```
