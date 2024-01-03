@@ -175,3 +175,21 @@ e^{j \frac{\pi}{2}}=j
 
 <p align="center" > <img src="./pic/p_4.png"></p>
 <p align="center" >Рисунок 4 - 4 </p>
+
+1. Непосредственное интегрирование.
+Интегро-дифференциальное уравнение
+
+```math
+R_i+L \frac{di}{dt} + \frac{1}{C} \int_0^t idt+ U_c(0)= E_m \sin(\omega t + \Psi_u)
+```
+
+Приняв 
+```math
+i=I_m \sin(\omega t + \Psi_i)
+```
+
+получим:
+
+```math
+
+```
