@@ -148,16 +148,20 @@ $$\dot{A}=A<\Psi$$
 Вспомним операцию дифференцирования:
 
 ```math
-\frac{di}{dt}= \omega I_m \sin(\omega t + \Psi_i+\frac{\pi}{2})=\frac{\omega \dot{I_m}}{\sqrt{2}} e^{j \omega t} e^{j \Psi} e{j \frac{\pi}{2}},
+\frac{di}{dt}= \omega I_m \sin(\omega t + \Psi_i+\frac{\pi}{2})=\frac{\omega \dot{I_m}}{\sqrt{2}} e^{j \omega t} e^{j \Psi} e^{j \frac{\pi}{2}},
 ```
 
 с учетом того, что 
 
 ```math
-e^{j frac{\pi}{2}}=j
+e^{j \frac{\pi}{2}}=j
 ```
 
-получим $ \frac{di}{dt}= j \omega I e^{j \Psi} e^{j\omega t}$
+получим 
+
+```math
+\frac{di}{dt}= j \omega I e^{j \Psi} e^{j \omega t}= j \omega \dot{I} e^{j \omega t}
+```
 
 т.е. изображению производной на комплексной плоскости соответствует умножение на $j \omega$.
 Аналогично интегрированию в области изображений соответствует деление на $j \omega$.
