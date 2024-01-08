@@ -191,5 +191,17 @@ i=I_m \sin(\omega t + \Psi_i)
 получим:
 
 ```math
-
+RI_m \sin (\omega t+ \Psi_i)+ \omega LI_m \cos(\omega t + \Psi_i)+ \frac{1}{\omega C} \cos(\omega t + \Psi_i)+ \frac{I_m}{\omega C} +U_c(0)= E_m \sin(\omega t + \Psi_u)
 ```
+
+т.к. в правой части уравнения синусоидальная функция надо потребовать
+
+```math
+\frac{I_m}{\omega C} +U_c(0)=0
+```
+
+```math
+I_m[R \sin (\omega t+ \Psi_i)+ (\omega L - \frac{1}{\omega C})  \cos(\omega t + \Psi_i) ]= E_m \sin(\omega t + \Psi_u)
+```
+
+Дальнейшие преобразования:
