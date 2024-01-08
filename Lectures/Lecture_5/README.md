@@ -205,3 +205,21 @@ I_m[R \sin (\omega t+ \Psi_i)+ (\omega L - \frac{1}{\omega C})  \cos(\omega t + 
 ```
 
 Дальнейшие преобразования:
+
+```math
+I_m \sqrt{R^2+(\omega L - \frac{1}{\omega C})^2}[\cos \alpha \sin(\omega t + \Psi_i) + \sin \alpha \cos(\omega t + \Psi_i) ]= E_m \sin(\omega t + \Psi_u)
+```
+
+,где
+
+```math
+\tan \alpha=\frac{(\omega L - \frac{1}{\omega C})}{R};
+```
+
+```math
+ \cos \alpha = \frac{R}{{R^2+(\omega L - \frac{1}{\omega C})^2}} ;
+```
+
+ ```math
+\sin \alpha= \frac{(\omega L - \frac{1}{\omega C})}{\sqrt{R^2 +(\omega L - \frac{1}{\omega C})^2}}
+```
