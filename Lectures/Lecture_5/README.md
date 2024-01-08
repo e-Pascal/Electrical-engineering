@@ -223,3 +223,15 @@ I_m \sqrt{R^2+(\omega L - \frac{1}{\omega C})^2}[\cos \alpha \sin(\omega t + \Ps
  ```math
 \sin \alpha= \frac{(\omega L - \frac{1}{\omega C})}{\sqrt{R^2 +(\omega L - \frac{1}{\omega C})^2}}
 ```
+
+```math
+ I_m \sqrt{R^2 +(\omega L - \frac{1}{\omega C})^2} \sin(\omega t+\alpha+\Psi_i)=E_m \sin(\omega t+\Psi_u)
+```
+
+Из этого уравнения вытекает:
+
+```math
+ I_m \sqrt{R^2 +(\omega L - \frac{1}{\omega C})^2}=E_m; \alpha + \Psi_i= \Psi_u ; \Psi_u - \Psi_i= \alpha=\phi
+```
+
+Следовательно
