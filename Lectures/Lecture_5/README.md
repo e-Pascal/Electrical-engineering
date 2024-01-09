@@ -275,3 +275,21 @@ $\phi=\arctan\frac{X}{R}$ - сдвиг по фазе между напряжен
 ```math
 R \dot{I} + j \omega L \dot{I} + \frac{1}{j \omega C} \dot{I}= \dot{E}; \dot{I}[R+ j(\omega L - \frac{1}{\omega C})]= \dot{E}
 ```
+
+```math
+\dot{I}=\frac{\dot{E}}{\omega L - \frac{1}{R^2 +(\omega L - \frac{1}{\omega C})^2} e^{-j \phi},
+```
+
+где 
+
+```math
+\phi=\arctan\frac{\omega L - \frac{1}{\omega C}}{R}
+
+Для принятых выше обозначений
+
+$\dot{I}(R+jX)=\dot{E}$ - закон Ома в комплексной форме
+комплекс $ R+jX=\overline{Z}$ - комплексное сопротивление
+
+$\overline{Z}= Z e^{j \phi}= Z \cos \phi + jZ \sin \phi$ , т.е.
+$R=Z \cos \phi; X=Z\sin \phi$
+```
