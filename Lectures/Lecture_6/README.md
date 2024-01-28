@@ -195,3 +195,15 @@ II. Параллельное соединение двухполюсников (
 
 <p align="center" > <img src="./pic/p_5.png"></p>
 <p align="center" >Рисунок 6 - 5 </p>
+
+Здесь удобно пользоваться характеристикой двухполюсников в виде проводимостей:
+
+```math
+\overline Y_K= G_K - j B_K
+```
+
+По первому закону Кирхгофа
+
+```math
+\dot I = \sum^n_1 \dot I_K= \sum^n_1 \dot U_K Y_K = \dot U \sum^n_1 Y_K = \dot U \left\{ \sum^n_1 G_K -j \sum^n_1 B_K\right\}
+```
