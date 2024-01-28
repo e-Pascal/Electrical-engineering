@@ -219,7 +219,7 @@ G_Э= \sum^n_1 G_K ; B_Э= \sum^N_1 B_K ; \phi= \arctan \frac{B_Э}{G_Э}
 Топографическая диаграмма токов, построенная относительно общего напряжения, представлена на рис. 
 
 <p align="center" > <img src="./pic/p_6.png"></p>
-<p align="center" >Рисунок 6 -  </p>
+<p align="center" >Рисунок 6 - 6 </p>
 
 Из топографической диаграммы удобно находить токи в соответствующих соединениях (например $\dot I_1 + \dot I_2$ ).
 
@@ -234,3 +234,32 @@ Q= U^2 X_{\dot Y}= \sum^n_1 U^2_K X_K = \sum^n_1 Q_K
 ```
 
 III. Смешанное соединение (рассмотрим поподробнее) (рис. 6 - 7) при  $U=U_m \sin (\omega t + \psi_U)$
+
+<p align="center" > <img src="./pic/p_7.png"></p>
+<p align="center" >Рисунок 6 - 7 </p>
+
+Комплексные сопротивления двухполюсников:
+
+```math
+\overline Z_1 = R_1 + j \omega L_1 = R_1 + j X_1
+```
+
+```math
+\overline Z_2 = R_2 + j \omega L_2 = R_2 + j X_2
+```
+
+```math
+\overline Z_3 = R_3 - j \frac{1}{\omega C} = R_3 - j X_3
+```
+
+Сопротивление двухполюсника аb:
+
+```math
+\overline Z_{ab} = \frac {\overline Z_2 \overline Z_3}{\overline Z_2 + \overline Z_3}= \frac {(R_2 + j X_2)(R_3 - j X_3)}{R_2 +R_3 + j(X_2 -X_3)}= R_{ab}+ j X_{ab}
+```
+
+Эквивалентное сопротивление всей цепи:
+
+```math
+\overline Z_\dot Y = \overline Z_1 + \overline Z_{ab}= R_{ab}+ j X_{\dot Y}
+```
