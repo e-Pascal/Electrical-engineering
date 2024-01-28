@@ -159,3 +159,33 @@ Z_K= R_K+jX_K,
 ```math
 \dot E = \dot I_K \left\{\sum^n_1 R_n + j \sum^n_1 X_K \right\} = \dot I_K \overline Z_\dot Y
 ```
+
+```math
+R_{\dot Y}= \sum^n_1 R_K ; X_Э= \sum^n_1 X_K
+```
+
+( $X_K$- берется с учетом знака).
+
+```math
+\dot I= \frac{\dot E}{Z_Э}= \frac{\dot E}{Ze^{i\phi}}=\frac{E}{Z}e^{j(\psi_e-\phi)},
+```
+
+где 
+
+```math
+\phi=\arctan \frac{X_{\dot Y}}{R_{\dot Y}}
+```
+
+Мощности:
+
+```math
+P=I^2R_{\dot Y}= I^2 \sum^n_1 R_K = \sum^n_1 I^2 R_K= \sum^n_1 P_K
+```
+
+```math
+Q=I^2X_{\dot Y}=I^2 \sum^n_1 X_K= \sum^n_1 I^2 X_K = \sum Q_K
+```
+Если векторную диаграмму напряжений на двухполюсниках изобразить относительно общего тока в соответствии с топологией схемы, получим т.н. топографическую диаграмму, из которой легко определить напряжения между любыми точками схемы (рис. 6-4).
+
+<p align="center" > <img src="./pic/p_4.png"></p>
+<p align="center" >Рисунок 6 - 4 </p>
