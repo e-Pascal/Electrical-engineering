@@ -263,3 +263,15 @@ III. Смешанное соединение (рассмотрим поподр�
 ```math
 \overline Z_\dot Y = \overline Z_1 + \overline Z_{ab}= R_{ab}+ j X_{\dot Y}
 ```
+
+Входной ток - ток через первый двухполюсник:
+
+```math
+\dot I_1= \frac{\dot U}{\overline Z_Э}= \frac{U}{Z} e^{j(\psi_U -phi)}
+```
+
+где $$\phi=\arctan \frac{X_{\dot Y}}{R_{\dot Y}}$$
+
+```math
+\dot U_{ab}= \dot I_1 \overline Z_{ab} ; \dot I_2= \frac {\dot U_{ab}}{\overline Z_2} ; \dot I_3 = \frac {\dot U_{ab}}{\overline Z_3}
+```
