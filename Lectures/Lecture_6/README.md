@@ -139,3 +139,7 @@ $\sum P_K=0$ и $\sum Q_K=0$
 `Примеры:`
 
 I. Последовательное соединение двухполюсников (рис. 6- 3) $e= E_m \sin(\omega t +\psi_e) $ 
+
+<p align="center" > <img src="./pic/p_3.png"></p>
+<p align="center" >Рисунок 6 - 3 </p>
+
