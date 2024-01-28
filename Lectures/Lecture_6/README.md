@@ -220,3 +220,17 @@ G_Э= \sum^n_1 G_K ; B_Э= \sum^N_1 B_K ; \phi= \arctan \frac{B_Э}{G_Э}
 
 <p align="center" > <img src="./pic/p_6.png"></p>
 <p align="center" >Рисунок 6 -  </p>
+
+Из топографической диаграммы удобно находить токи в соответствующих соединениях (например $\dot I_1 + \dot I_2$ ).
+
+Баланс мощности:
+
+```math
+P= U^2 G_Э= \sum^n_1 U^2_K G_K = \sum^n_1 P_K
+```
+
+```math
+Q= U^2 X_{\dot Y}= \sum^n_1 U^2_K X_K = \sum^n_1 Q_K
+```
+
+III. Смешанное соединение (рассмотрим поподробнее) (рис. 6 - 7) при  $U=U_m \sin (\omega t + \psi_U)$
