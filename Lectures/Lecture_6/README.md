@@ -55,4 +55,5 @@ $\overline Z = Z \cos \phi + j Z \sin \phi$ - для перехода от ге�
 ```
 
 
-
+<p align="center" > <img src="./pic/p_2.png"></p>
+<p align="center" >Рисунок 6 - 2 </p>
