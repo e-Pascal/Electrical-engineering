@@ -143,3 +143,9 @@ I. Последовательное соединение двухполюсни�
 <p align="center" > <img src="./pic/p_3.png"></p>
 <p align="center" >Рисунок 6 - 3 </p>
 
+По второму закону Кирхгофа
+
+```math
+\dot E= \sum^n_1 \dot U_K= \sum^n_1 \dot I_K \overline Z_K = \dot I \sum^n_1 \overline Z_K
+```
+где $Z_K= R_K+jX_K$, значит $\dot E = \dot I_k \left\{ \sum^n_1 R_n + j \sum^n_1 X_K \right\} = \dot I_K \overline Z_\dot Y$
