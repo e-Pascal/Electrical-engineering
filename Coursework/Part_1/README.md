@@ -97,6 +97,8 @@
 
 ## Практическая часть
 
+> ПРИМЕЧАНИЕ: запрещается использование стабилизаторов компании Analog Devices и Texas Instruments
+
 ### Задание 1. Линейный стабилизатор с регулируемым выходом  
 Привести параметры индивидуального варианта в виде таблицы (шапка таблицы + параметры своего варианта).
 
@@ -117,36 +119,36 @@
 *Таблица 1.1 – Параметры для подбора линейного стабилизатора*
 | $№$	  |$U_{in\ min}\ ,\ В$| $U_{in\ max}\ ,\ В$|$U_{out\ nom}\ ,\ В$  | $I_{out}\ ,\ мА$	 | $Company$         |  
 |-------|-------------------|--------------------|----------------------|-------------------|-------------------|  
-|1      |        7.5	       |        9	          | 5	                   | 200               | Analog Devices    |  
-|2      |        5          |        6           | 4                    | 100               | Analog Devices    |
-|3      |        5.5        |        7           | 4                    | 200               | Texas Instruments |
+|1      |        7.5	       |        10	          | 5	                   | 120               | Analog Devices    |  
+|2      |        5          |        6           | 4                    | 270               | Analog Devices    |
+|3      |        5.5        |        8           | 4                    | 270               | Texas Instruments |
 |4      |        6          |        7           | 4                    | 100               | Analog Devices    |
-|5      |        6.5        |        8           | 4                    | 200               | Texas Instruments |
-|6      |        7          |        10          | 5                    | 160               | Analog Devices    |
-|7      |        8          |        11          | 5                    | 300               | Texas Instruments |
-|8      |        8.5        |        13          | 5                    | 300               | Analog Devices    |
+|5      |        6.5        |        8           | 4                    | 120              | Texas Instruments |
+|6      |        8          |        10          | 5                    | 160               | Analog Devices    |
+|7      |        9          |        11          | 5                    | 270               | Texas Instruments |
+|8      |        8.5        |        13          | 5                    | 220               | Analog Devices    |
 |9      |        10         |        11          | 6                    | 230               | Texas Instruments |
-|10     |        11         |        13          | 6                    | 300               | Analog Devices    |
-|11     |        11.5       |        12          | 7                    | 300               | Texas Instruments |
-|12     |        12         |        14          | 7                    | 200               | Analog Devices    |
+|10     |        11         |        13          | 6                    | 120               | Analog Devices    |
+|11     |        11.5       |        13          | 7                    | 220              | Texas Instruments |
+|12     |        12         |        15          | 7                    | 240               | Analog Devices    |
 |13     |        12.5       |        15          | 7                    | 220               | Texas Instruments |
-|14     |        12         |        14          | 9                    | 200               | Analog Devices    |
+|14     |        12         |        14          | 9                    | 120               | Analog Devices    |
 |15     |        13         |        15          | 8                    | 300               | Texas Instruments |
-|16     |        13.5       |        14          | 8                    | 300               | Analog Devices    |
-|17     |        14         |        16          | 9                    | 400               | Texas Instruments |
-|18     |        14.5       |        16          | 9                    | 300               | Analog Devices    |
+|16     |        13.5       |        14          | 8                    | 270               | Analog Devices    |
+|17     |        14         |        16          | 9                    | 410               | Texas Instruments |
+|18     |        14.5       |        17          | 9                    | 300               | Analog Devices    |
 |19     |        15         |        18          | 10                   | 250               | Texas Instruments |
-|20     |        15.5       |        17          | 11                   | 300               | Analog Devices    |
-|21     |        16         |        18          | 12                   | 300               | Texas Instruments |
+|20     |        15.5       |        17          | 11                   | 220              | Analog Devices    |
+|21     |        16         |        17          | 12                   | 350               | Texas Instruments |
 |22     |        16.5       |        17          | 12                   | 170               | Analog Devices    | 
-|23     |        17         |        18          | 13                   | 300               | Texas Instruments |
-|24     |        17.5       |        18          | 11                   | 300               | Analog Devices    |
-|25     |        18         |        20          | 12                   | 270               | Texas Instruments |
-|26     |        18.5       |        20          | 15                   | 300               | Analog Devices    |
-|27     |        19         |        20          | 17                   | 180               | Texas Instruments |
-|28     |        10.5       |        11          | 6                    | 200               | Analog Devices    |
-|29     |        9          |        13          | 5                    | 350               | Texas Instruments |
-|30     |        9.5        |        11          | 6                    | 300               | Analog Devices    |
+|23     |        17         |        18          | 13                   | 120              | Texas Instruments |
+|24     |        17.5       |        19          | 11                   | 320               | Analog Devices    |
+|25     |        18         |        21          | 12                   | 270               | Texas Instruments |
+|26     |        18.5       |        22          | 15                   | 220               | Analog Devices    |
+|27     |        19         |        23          | 17                   | 180               | Texas Instruments |
+|28     |        10.5       |        11          | 6                    | 120              | Analog Devices    |
+|29     |        9          |        14          | 5                    | 220               | Texas Instruments |
+|30     |        9.5        |        13          | 6                    | 360               | Analog Devices    |
 
 > П р и м е ч а н и е  
 $№$ – номер индивидуального варианта  
@@ -216,35 +218,35 @@ U_{in\ max} \cdot I = (U_{in\ max}-U_{out\ nom}) \cdot I + U_{out\ nom} \cdot I
 *Таблица 1.2 – Параметры для подбора линейного стабилизатора* 
 |$№$	|$U_{in\ min}\ ,\ В$|$U_{in\ max}\ ,\ В$|$U_{out\ nom}\ ,\ В$	|$R_{нагр}\ ,\ Ом$	| $Company$         |
 |-------|-------------------|--------------------|----------------------|-------------------|-------------------|  
-|1	    |16.5	            |17	                |5	                    |22	                |Texas Instruments  |
-|2	    |5	                |6	                |3.3	                |6	                |Texas Instruments  |
-|3	    |18.5	            |20	                |5	                    |11	                |Analog Devices     |
-|4	    |6	                |7	                |3.3	                |12	                |Texas Instruments  |
-|5	    |6.5	            |8	                |5	                    |5	                |Analog Devices     |
-|6	    |13.5	            |14	                |5	                    |8	                |Texas Instruments  |
-|7	    |7.5	            |9	                |5	                    |10	                |Analog Devices     |
-|8	    |8	                |11	                |3.3	                |8	                |Texas Instruments  |
-|9	    |8.5	            |13	                |5	                    |15	                |Analog Devices     |
-|10	    |15.5	            |17	                |5	                    |8	                |Texas Instruments  |
-|11	    |9.5	            |12	                |5	                    |6	                |Analog Devices     |
-|12	    |10	                |11	                |3.3	                |8	                |Texas Instruments  |
-|13	    |10.5	            |11	                |5	                    |7	                |Analog Devices     |
-|14	    |11	                |13	                |3.3	                |20	                |Texas Instruments  |
-|15	    |11.5	            |12	                |5	                    |13	                |Analog Devices     |
-|16	    |12	                |15	                |3.3	                |15	                |Texas Instruments  |
-|17	    |12.5	            |15	                |5	                    |14	                |Analog Devices     |
-|18	    |13	                |15	                |3.3	                |10	                |Texas Instruments  |
-|19	    |5.5	            |7	                |5	                    |8	                |Analog Devices     |
-|20	    |14	                |16	                |3.3	                |9	                |Texas Instruments  |
-|21	    |14.5	            |17	                |5	                    |16	                |Analog Devices     |
-|22	    |15	                |18	                |3.3	                |12	                |Texas Instruments  |
-|23	    |19	                |20	                |3.3	                |9	                |Analog Devices     |
-|24	    |16	                |18	                |3.3	                |16	                |Texas Instruments  |
-|25	    |7	                |10	                |3.3	                |12	                |Analog Devices     |
-|26	    |17	                |18	                |3.3	                |12	                |Texas Instruments  |
-|27	    |17.5	            |19	                |5	                    |11	                |Analog Devices     |
-|28	    |18	                |20	                |3.3	                |8	                |Texas Instruments  |
-|29	    |9	                |14	                |3.3	                |10	                |Analog Devices     |
+|1	    |16.5	            |18	                |5	                    |20	                |Texas Instruments  |
+|2	    |5	                |8	                |3.3	                |12	                |Texas Instruments  |
+|3	    |18.5	            |23	                |5	                    |12	                |Analog Devices     |
+|4	    |6	                |8	                |3.3	                |10	                |Texas Instruments  |
+|5	    |6.5	            |9	                |5	                    |12	                |Analog Devices     |
+|6	    |13.5	            |15	                |5	                    |13	                |Texas Instruments  |
+|7	    |7.5	            |10	                |5	                    |11	                |Analog Devices     |
+|8	    |8	                |12	                |3.3	                |15	                |Texas Instruments  |
+|9	    |8.5	            |11	                |5	                    |14	                |Analog Devices     |
+|10	    |15.5	            |18	                |5	                    |6	                |Texas Instruments  |
+|11	    |9.5	            |13	                |5	                    |12	                |Analog Devices     |
+|12	    |10	                |12	                |3.3	                |10	                |Texas Instruments  |
+|13	    |10.5	            |13	                |5	                    |11	                |Analog Devices     |
+|14	    |11	                |12	                |3.3	                |21	                |Texas Instruments  |
+|15	    |11.5	            |15	                |5	                    |14	                |Analog Devices     |
+|16	    |12	                |14	                |3.3	                |14	                |Texas Instruments  |
+|17	    |12.5	            |16	                |5	                    |18	                |Analog Devices     |
+|18	    |13	                |17	                |3.3	                |11	                |Texas Instruments  |
+|19	    |5.5	            |8	                |5	                    |10	                |Analog Devices     |
+|20	    |14	                |15	                |3.3	                |10	                |Texas Instruments  |
+|21	    |14.5	            |16	                |5	                    |14	                |Analog Devices     |
+|22	    |15	                |17	                |3.3	                |13	                |Texas Instruments  |
+|23	    |19	                |21	                |3.3	                |10	                |Analog Devices     |
+|24	    |16	                |16	                |3.3	                |15	                |Texas Instruments  |
+|25	    |7	                |11	                |3.3	                |13	                |Analog Devices     |
+|26	    |17	                |17	                |3.3	                |15	                |Texas Instruments  |
+|27	    |17.5	            |20	                |5	                    |14	                |Analog Devices     |
+|28	    |18	                |19	                |3.3	                |13	                |Texas Instruments  |
+|29	    |9	                |13	                |3.3	                |11	                |Analog Devices     |
 
 > П р и м е ч а н и е  
 $№$ – номер индивидуального варианта  
