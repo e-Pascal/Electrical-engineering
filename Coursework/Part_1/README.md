@@ -97,6 +97,8 @@
 
 ## Практическая часть
 
+> ПРИМЕЧАНИЕ: запрещается использование стабилизаторов компании Analog Devices и Texas Instruments
+
 ### Задание 1. Линейный стабилизатор с регулируемым выходом  
 Привести параметры индивидуального варианта в виде таблицы (шапка таблицы + параметры своего варианта).
 
@@ -117,36 +119,36 @@
 *Таблица 1.1 – Параметры для подбора линейного стабилизатора*
 | $№$	  |$U_{in\ min}\ ,\ В$| $U_{in\ max}\ ,\ В$|$U_{out\ nom}\ ,\ В$  | $I_{out}\ ,\ мА$	 | $Company$         |  
 |-------|-------------------|--------------------|----------------------|-------------------|-------------------|  
-|1      |        7.5	       |        9	          | 5	                   | 200               | Analog Devices    |  
-|2      |        5          |        6           | 4                    | 100               | Analog Devices    |
-|3      |        5.5        |        7           | 4                    | 200               | Texas Instruments |
+|1      |        7.5	       |        10	          | 5	                   | 120               | Analog Devices    |  
+|2      |        5          |        6           | 4                    | 270               | Analog Devices    |
+|3      |        5.5        |        8           | 4                    | 270               | Texas Instruments |
 |4      |        6          |        7           | 4                    | 100               | Analog Devices    |
-|5      |        6.5        |        8           | 4                    | 200               | Texas Instruments |
-|6      |        7          |        10          | 5                    | 160               | Analog Devices    |
-|7      |        8          |        11          | 5                    | 300               | Texas Instruments |
-|8      |        8.5        |        13          | 5                    | 300               | Analog Devices    |
+|5      |        6.5        |        8           | 4                    | 120              | Texas Instruments |
+|6      |        8          |        10          | 5                    | 160               | Analog Devices    |
+|7      |        9          |        11          | 5                    | 270               | Texas Instruments |
+|8      |        8.5        |        13          | 5                    | 220               | Analog Devices    |
 |9      |        10         |        11          | 6                    | 230               | Texas Instruments |
-|10     |        11         |        13          | 6                    | 300               | Analog Devices    |
-|11     |        11.5       |        12          | 7                    | 300               | Texas Instruments |
-|12     |        12         |        14          | 7                    | 200               | Analog Devices    |
+|10     |        11         |        13          | 6                    | 120               | Analog Devices    |
+|11     |        11.5       |        13          | 7                    | 220              | Texas Instruments |
+|12     |        12         |        15          | 7                    | 240               | Analog Devices    |
 |13     |        12.5       |        15          | 7                    | 220               | Texas Instruments |
-|14     |        12         |        14          | 9                    | 200               | Analog Devices    |
+|14     |        12         |        14          | 9                    | 120               | Analog Devices    |
 |15     |        13         |        15          | 8                    | 300               | Texas Instruments |
-|16     |        13.5       |        14          | 8                    | 300               | Analog Devices    |
-|17     |        14         |        16          | 9                    | 400               | Texas Instruments |
-|18     |        14.5       |        16          | 9                    | 300               | Analog Devices    |
+|16     |        13.5       |        14          | 8                    | 270               | Analog Devices    |
+|17     |        14         |        16          | 9                    | 410               | Texas Instruments |
+|18     |        14.5       |        17          | 9                    | 300               | Analog Devices    |
 |19     |        15         |        18          | 10                   | 250               | Texas Instruments |
-|20     |        15.5       |        17          | 11                   | 300               | Analog Devices    |
-|21     |        16         |        18          | 12                   | 300               | Texas Instruments |
+|20     |        15.5       |        17          | 11                   | 220              | Analog Devices    |
+|21     |        16         |        17          | 12                   | 350               | Texas Instruments |
 |22     |        16.5       |        17          | 12                   | 170               | Analog Devices    | 
-|23     |        17         |        18          | 13                   | 300               | Texas Instruments |
-|24     |        17.5       |        18          | 11                   | 300               | Analog Devices    |
-|25     |        18         |        20          | 12                   | 270               | Texas Instruments |
-|26     |        18.5       |        20          | 15                   | 300               | Analog Devices    |
-|27     |        19         |        20          | 17                   | 180               | Texas Instruments |
-|28     |        10.5       |        11          | 6                    | 200               | Analog Devices    |
-|29     |        9          |        13          | 5                    | 350               | Texas Instruments |
-|30     |        9.5        |        11          | 6                    | 300               | Analog Devices    |
+|23     |        17         |        18          | 13                   | 120              | Texas Instruments |
+|24     |        17.5       |        19          | 11                   | 320               | Analog Devices    |
+|25     |        18         |        21          | 12                   | 270               | Texas Instruments |
+|26     |        18.5       |        22          | 15                   | 220               | Analog Devices    |
+|27     |        19         |        23          | 17                   | 180               | Texas Instruments |
+|28     |        10.5       |        11          | 6                    | 120              | Analog Devices    |
+|29     |        9          |        14          | 5                    | 220               | Texas Instruments |
+|30     |        9.5        |        13          | 6                    | 360               | Analog Devices    |
 
 > П р и м е ч а н и е  
 $№$ – номер индивидуального варианта  
@@ -216,35 +218,35 @@ U_{in\ max} \cdot I = (U_{in\ max}-U_{out\ nom}) \cdot I + U_{out\ nom} \cdot I
 *Таблица 1.2 – Параметры для подбора линейного стабилизатора* 
 |$№$	|$U_{in\ min}\ ,\ В$|$U_{in\ max}\ ,\ В$|$U_{out\ nom}\ ,\ В$	|$R_{нагр}\ ,\ Ом$	| $Company$         |
 |-------|-------------------|--------------------|----------------------|-------------------|-------------------|  
-|1	    |16.5	            |17	                |5	                    |22	                |Texas Instruments  |
-|2	    |5	                |6	                |3.3	                |6	                |Texas Instruments  |
-|3	    |18.5	            |20	                |5	                    |11	                |Analog Devices     |
-|4	    |6	                |7	                |3.3	                |12	                |Texas Instruments  |
-|5	    |6.5	            |8	                |5	                    |5	                |Analog Devices     |
-|6	    |13.5	            |14	                |5	                    |8	                |Texas Instruments  |
-|7	    |7.5	            |9	                |5	                    |10	                |Analog Devices     |
-|8	    |8	                |11	                |3.3	                |8	                |Texas Instruments  |
-|9	    |8.5	            |13	                |5	                    |15	                |Analog Devices     |
-|10	    |15.5	            |17	                |5	                    |8	                |Texas Instruments  |
-|11	    |9.5	            |12	                |5	                    |6	                |Analog Devices     |
-|12	    |10	                |11	                |3.3	                |8	                |Texas Instruments  |
-|13	    |10.5	            |11	                |5	                    |7	                |Analog Devices     |
-|14	    |11	                |13	                |3.3	                |20	                |Texas Instruments  |
-|15	    |11.5	            |12	                |5	                    |13	                |Analog Devices     |
-|16	    |12	                |15	                |3.3	                |15	                |Texas Instruments  |
-|17	    |12.5	            |15	                |5	                    |14	                |Analog Devices     |
-|18	    |13	                |15	                |3.3	                |10	                |Texas Instruments  |
-|19	    |5.5	            |7	                |5	                    |8	                |Analog Devices     |
-|20	    |14	                |16	                |3.3	                |9	                |Texas Instruments  |
-|21	    |14.5	            |17	                |5	                    |16	                |Analog Devices     |
-|22	    |15	                |18	                |3.3	                |12	                |Texas Instruments  |
-|23	    |19	                |20	                |3.3	                |9	                |Analog Devices     |
-|24	    |16	                |18	                |3.3	                |16	                |Texas Instruments  |
-|25	    |7	                |10	                |3.3	                |12	                |Analog Devices     |
-|26	    |17	                |18	                |3.3	                |12	                |Texas Instruments  |
-|27	    |17.5	            |19	                |5	                    |11	                |Analog Devices     |
-|28	    |18	                |20	                |3.3	                |8	                |Texas Instruments  |
-|29	    |9	                |14	                |3.3	                |10	                |Analog Devices     |
+|1	    |16.5	            |18	                |5	                    |20	                |Texas Instruments  |
+|2	    |5	                |8	                |3.3	                |12	                |Texas Instruments  |
+|3	    |18.5	            |23	                |5	                    |12	                |Analog Devices     |
+|4	    |6	                |8	                |3.3	                |10	                |Texas Instruments  |
+|5	    |6.5	            |9	                |5	                    |12	                |Analog Devices     |
+|6	    |13.5	            |15	                |5	                    |13	                |Texas Instruments  |
+|7	    |7.5	            |10	                |5	                    |11	                |Analog Devices     |
+|8	    |8	                |12	                |3.3	                |15	                |Texas Instruments  |
+|9	    |8.5	            |11	                |5	                    |14	                |Analog Devices     |
+|10	    |15.5	            |18	                |5	                    |6	                |Texas Instruments  |
+|11	    |9.5	            |13	                |5	                    |12	                |Analog Devices     |
+|12	    |10	                |12	                |3.3	                |10	                |Texas Instruments  |
+|13	    |10.5	            |13	                |5	                    |11	                |Analog Devices     |
+|14	    |11	                |12	                |3.3	                |21	                |Texas Instruments  |
+|15	    |11.5	            |15	                |5	                    |14	                |Analog Devices     |
+|16	    |12	                |14	                |3.3	                |14	                |Texas Instruments  |
+|17	    |12.5	            |16	                |5	                    |18	                |Analog Devices     |
+|18	    |13	                |17	                |3.3	                |11	                |Texas Instruments  |
+|19	    |5.5	            |8	                |5	                    |10	                |Analog Devices     |
+|20	    |14	                |15	                |3.3	                |10	                |Texas Instruments  |
+|21	    |14.5	            |16	                |5	                    |14	                |Analog Devices     |
+|22	    |15	                |17	                |3.3	                |13	                |Texas Instruments  |
+|23	    |19	                |21	                |3.3	                |10	                |Analog Devices     |
+|24	    |16	                |16	                |3.3	                |15	                |Texas Instruments  |
+|25	    |7	                |11	                |3.3	                |13	                |Analog Devices     |
+|26	    |17	                |17	                |3.3	                |15	                |Texas Instruments  |
+|27	    |17.5	            |20	                |5	                    |14	                |Analog Devices     |
+|28	    |18	                |19	                |3.3	                |13	                |Texas Instruments  |
+|29	    |9	                |13	                |3.3	                |11	                |Analog Devices     |
 
 > П р и м е ч а н и е  
 $№$ – номер индивидуального варианта  
@@ -280,23 +282,23 @@ $Company$ – производитель стабилизатора
 Вписать в отчёт полное название LDO стабилизатора в соответствии с вариантом из табл. 1.3.
 
 *Таблица 1.3 – Перечень P/N LDO стабилизаторов* 
-|№ИВ	|P/N	            |№ИВ	    |Part Number        |
-|-------|-------------------|-----------|-------------------|
-|1	    |LT3072EUFF#PBF	    |16	        |LTC3026EDD-1#PBF   |   
-|2	    |LT3012EDE#PBF	    |17	        |ADP123ACPZ-R7      |
-|3	    |LT3045EDD#PBF	    |18	        |LT3042EDD#PBF      |
-|4	    |ADP1708ACPZ-R7	    |19	        |LT3029EDE#PBF      |
-|5	    |LT3013BEDE#PBF	    |20	        |LT3083EDF#PBF      |
-|6	    |ADP7157ACPZ-01-R7	|21	        |ADP225ACPZ-R7      |
-|7	    |ADP171AUJZ-R7	    |22	        |LT3012BEDE#PBF     |
-|8	    |ADP7159ACPZ-01-R7	|23	        |ADP163AUJZ-R7      |
-|9	    |ADP1741ACPZ-R7	    |24	        |LT3024EDE#PBF      |
-|10	    |ADM7155ACPZ-01-R7	|25	        |LT3028EFE#PBF      |
-|11	    |LT3062EDCB#TRPBF	|26	        |LT3033EUDC#PBF     |
-|12	    |ADM7151ACPZ-02-R7	|27	        |LT3014EDD#PBF      |
-|13	    |LT3030EFE#PBF	    |28	        |LT1085CT#PBF       |
-|14	    |LT3011EDD#PBF	    |29	        |LT3014EDD#PBF      |
-|15	    |LT1084CT#PBF	    |30	        |LT3013BEDE#PBF     |   
+|№ИВ	  |P/N	                |№ИВ	       |Part Number        |
+|------|--------------------|-----------|-------------------|
+|1	    |NCV4296-2CSN50T1G		  |16	        |NCP170AMX330TBG    |   
+|2	    |STLQ020C22R		    |17	        |NCV8711ASNADJT1G   |
+|3	    |NCV8187AMN120TAG	   |18	        |TC1016-4.0VCTTR    |
+|4	    |LD49100PU15RY	      |19	        |LM1117MPX-50NOPB   |
+|5	    |ST732M28R	          |20	        |LD59030DTPU12R     |
+|6	    |NCV8164AML280TCG	   |21	        |MIC5205-2.7YM5-TR  |
+|7	    |MCP1792T-4102H/CB        |22	        |NCV8114ASN165T1G   |
+|8	    |MIC5252-3.0YM5-TR  |23	        |NCP164AMT180TAG    |
+|9	    |MIC3490-2.5YM5-TR		  |24	        |TC1224-4.0VCTTR    |
+|10	   |STLQ020J33R	        |25	        |MIC3490-3.0YM5-TR  |
+|11	   |TC1017-2.8VCTTR	    |26	        |TC1108-2.8VDBTR    |
+|12	   |MIC5305-2.6YML-TR	  |27	        |ST715CR            |
+|13	   |MCP1826T-5002E/DC	  |28	        |MIC5319-2.5YML-TR  |
+|14	   |MIC5317-2.8YD5-TR  |29	        |NCP164AMT120TAG    |
+|15	   |NCP135BMT040TBG	  |30	        |NCP711ASNADJT1G    |   
 
 Выделить из спецификации и отразить в отчёте основную информацию про LDO стабилизатор (минимальный перечень приведён ниже 3.2.1-3.2.8), необходимую на начальном этапе разработки (на русском языке).
 > К каждому пункту приложить фрагмент из спецификации, из которого были взяты параметры. Фрагменты из спецификации НЕ ЗАМЕНЯЮТ ТЕКСТ ОТЧЁТА, А ДОПОЛНЯЮТ ЕГО. Если в отчёте приводятся рисунки, таблицы и приложения, то по ходу текста на них необходимо ссылаться ("Схема, разработанная в Altium Designer, выполнена в соответствии с рекомендацией спецификации (рис. 5)"). Чтобы ссылаться на фрагменты, они должны быть пронумерованы и названы в отчёте.
