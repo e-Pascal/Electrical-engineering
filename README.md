@@ -37,7 +37,7 @@
 
 ---
 ## Лекции
-<details><summary>Развернуть план лекций</summary>
+<details><summary>План лекций</summary>
 
 1.	Основные понятия электротехники <!--(./Lectures/Lecture_1/README.md)-->
 2.	Основные уравнения ТЭЦ<!--(./Lectures/Lecture_1/README.md)-->  
