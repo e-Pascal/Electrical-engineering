@@ -117,7 +117,27 @@
 
 </details>
 
+## Фрагменты лекций из книги "Электротехника Ю.М.Мурзин, Ю.И.Волков"
+<details><summary>План лекций</summary>
 
+1.	Введение в дисциплину «Электротехника»<!--(./Lectures/Lecture_1/README.md)-->
+1.	[Основные понятия электротехники](./Lectures/Lecture_1/README.md)
+2.	[Элементы электрических цепей](./Lectures/Lecture_2/README.md)
+4.	[Закон Ома и правила Кирхгофа](./Lectures/Lecture_3/README.md)
+5.	Расчет цепей при синусоидальных токах и напряжениях<!--(./Lectures/Lecture_5/README.md)-->
+6.	Анализ сложных цепей<!--(./Lectures/Lecture_6/README.md)-->
+7.	Резонанс и частотные свойства<!--(./Lectures/Lecture_7/README.md)-->
+8.	Несинусоидальные токи и напряжения<!--(./Lectures/Lecture_8/README.md)-->
+9.	Четырехполюсники<!--(./Lectures/Lecture_2/README.md)-->
+10.	Трехфазные цепи<!--(./Lectures/Lecture_10/README.md)-->
+11.	Классические методы расчета переходных процессов<!--(./Lectures/Lecture_11/README.md)-->
+12.	Интеграл Дюамеля<!--(./Lectures/Lecture_12/README.md)-->
+13.	Интегральные преобразования<!--(./Lectures/Lecture_13/README.md)-->
+14.	Синтез электрических цепей<!--(./Lectures/Lecture_14/README.md)-->
+15.	Место электротехники в инженерной деятельности<!--(./Lectures/Lecture_15/README.md)-->
+16.	Роль «Электротехники» в «Электронике»<!--(./Lectures/Lecture_16/README.md)-->
+
+</details>
 ---
 
 ## Лабораторные работы (ИВТ only)
