@@ -44,7 +44,7 @@
 
 <p align="center" > <img src="./pic/p1.png"></p>
 
-<p align="center" >Рисунок – Система питнаия в МК</p>
+<p align="center" >Рисунок – Система питания в МК</p>
 
 Рассмотрим пример МК от разных производителей, такие как STM32, ESP32 или PIC, которые имеют следующие особенности:
 
@@ -495,10 +495,6 @@ JTAG используется для доступа к внутренним ре
 ##### 1.8. Ссылка на стандарт
 - **IEEE 1149.1-2013** — Standard for Test Access Port and Boundary-Scan Architecture.  
   [IEEE 1149.1-2013 на IEEE Xplore](https://ieeexplore.ieee.org/document/6548334)
-
-<p align="center" > <img src="./pic/p8.png"></p>
-
-<p align="center" >Рисунок 4 – Принцип обмена по JTAG</p>
 
 ---
 
