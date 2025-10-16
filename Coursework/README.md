@@ -52,9 +52,9 @@
 Перед выполнением практической части курсовой работы необходимо ознакомиться с приведёнными ниже приложениями, которые потребуются в процессе работы:
 
 - [x] [Приложение А. Справочник номиналных рядов](https://github.com/e-Pascal/Electrical-engineering/tree/main/Coursework/appendix_D/README.md)  
-- [x] [Приложение Б. Перечень ГОСТов](https://github.com/e-Pascal/Electrical-engineering/tree/main/appendix_A/README.md)  
-- [x] [Приложение В. Методические указания по оформлению схемы](https://github.com/e-Pascal/Electrical-engineering/tree/main/appendix_B/README.md)
-- [x] [Приложение Г. Методические указания по оформлению отчёта](https://github.com/e-Pascal/Electrical-engineering/tree/main/appendix_C/README.md)
+- [x] [Приложение Б. Перечень ГОСТов](https://github.com/e-Pascal/Electrical-engineering/tree/main/Coursework/appendix_D/README.md) 
+- [x] [Приложение В. Методические указания по оформлению схемы](https://github.com/e-Pascal/Electrical-engineering/tree/main/Coursework/appendix_B/README.md) 
+- [x] [Приложение Г. Методические указания по оформлению отчёта](https://github.com/e-Pascal/Electrical-engineering/tree/main/Coursework/appendix_C/README.md) 
 
 ## Сроки выполнения
 
