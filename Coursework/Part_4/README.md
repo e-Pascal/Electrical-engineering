@@ -932,33 +932,33 @@ PCI-Express (PCIe) — это последовательный интерфей�
 Варианты
 | Номер варианта | Семейство МК    | Семейство ПЛИС  | Интерфейс датчика | Интерфейс дисплея |
 |----------------|-----------------|-----------------|-------------------|-------------------|
-| 1              | STM32F0         | Xilinx Spartan-6 | I2C               | SPI               |
-| 2              | PIC16           | Lattice iCE40   | UART              | I2C               |
-| 3              | STM32L0         | Altera Cyclone IV | SPI               | UART              |
-| 4              | PIC18           | Intel MAX10     | I2C               | SPI               |
-| 5              | STM32F1         | Xilinx Artix-7  | UART              | I2C               |
-| 6              | PIC16           | Lattice iCE40   | SPI               | UART              |
-| 7              | STM32F3         | Xilinx Spartan-3 | I2C               | SPI               |
-| 8              | PIC18           | Altera MAX V    | UART              | I2C               |
-| 9              | STM32F0         | Xilinx Spartan-6 | SPI               | UART              |
-| 10             | STM32F1         | Xilinx Artix-7  | I2C               | SPI               |
-| 11             | PIC16           | Altera Cyclone IV | UART             | SPI               |
-| 12             | STM32F1         | Lattice iCE40   | SPI               | I2C               |
-| 13             | PIC18           | Intel MAX10     | I2C               | UART              |
-| 14             | STM32F0         | Xilinx Spartan-6 | UART              | SPI               |
-| 15             | STM32F1         | Xilinx Artix-7  | SPI               | I2C               |
-| 16             | PIC16           | Altera MAX V    | I2C               | UART              |
-| 17             | STM32F3         | Xilinx Spartan-3 | UART              | SPI               |
-| 18             | PIC18           | Lattice iCE40   | SPI               | I2C               |
-| 19             | STM32F103C8T6   | Xilinx Spartan-6 | I2C               | UART              |
-| 20             | STM32L0         | Xilinx Artix-7  | UART              | SPI               |
-| 21             | PIC16           | Altera Cyclone IV | SPI             | UART              |
-| 22             | STM32F3         | Xilinx Spartan-3 | I2C               | I2C               |
-| 23             | PIC18           | Altera MAX V    | UART              | SPI               |
-| 24             | STM32L0         | Xilinx Spartan-6 | SPI               | I2C               |
-| 25             | STM32F1         | Lattice iCE40   | UART              | SPI               |
-| 26             | PIC16           | Xilinx Artix-7  | SPI               | I2C               |
-| 27             | STM32F0         | Altera Cyclone IV | I2C              | UART              |
-| 28             | STM32F103C8T6   | Xilinx Spartan-6 | UART              | SPI               |
-| 29             | PIC18           | Altera MAX V    | SPI               | I2C               |
-| 30             | STM32L031G6U6   | Xilinx Spartan-6 | I2C               | UART              |
+| 1              | STM32F0         | TL082CP       | I2C               | SPI               |
+| 2              | PIC16           | AD820AN         | UART              | I2C               |
+| 3              | STM32L0         | AD8672ARZ       | SPI               | UART              |
+| 4              | PIC18           | TS922IN        | I2C               | SPI               |
+| 5              | STM32F1         | NE5532P        | UART              | I2C               |
+| 6              | PIC16           | AD826ARZ         | SPI               | UART              |
+| 7              | STM32F3         | LM741CN       | I2C               | SPI               |
+| 8              | PIC18           | NE5534P      | UART              | I2C               |
+| 9              | STM32F0         | LM1458N       | SPI               | UART              |
+| 10             | STM32F1         | LM358N        | I2C               | SPI               |
+| 11             | PIC16           | LM2904N       | UART             | SPI               |
+| 12             | STM32F1         | OPA2134PA      | SPI               | I2C               |
+| 13             | PIC18           | MC33078P     | I2C               | UART              |
+| 14             | STM32F0         | OPA2604AP    | UART              | SPI               |
+| 15             | STM32F1         | AD797ANZ     | SPI               | I2C               |
+| 16             | PIC16           | OPA2277PA    | I2C               | UART              |
+| 17             | STM32F3         | AD712JN     | UART              | SPI               |
+| 18             | PIC18           | TL072CP    | SPI               | I2C               |
+| 19             | STM32F103C8T6   | AD822AN     | I2C               | UART              |
+| 20             | STM32L0         | OPA2227PA  | UART              | SPI               |
+| 21             | PIC16           | OPA1612AID  | SPI             | UART              |
+| 22             | STM32F3         | OPA277PA    | I2C               | I2C               |
+| 23             | PIC18           | AD711JN     | UART              | SPI               |
+| 24             | STM32L0         | OPA2241UA    | SPI               | I2C               |
+| 25             | STM32F1         | MC33079P    | UART              | SPI               |
+| 26             | PIC16           | LM4562NA      | SPI               | I2C               |
+| 27             | STM32F0         | LT1057CN8    | I2C              | UART              |
+| 28             | STM32F103C8T6   | LT1124CN8    | UART              | SPI               |
+| 29             | PIC18           | MCP6022-I/P    | SPI               | I2C               |
+| 30             | STM32L031G6U6   | MCP6002-I/P  | I2C               | UART              |
