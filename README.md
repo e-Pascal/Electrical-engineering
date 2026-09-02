@@ -230,7 +230,7 @@
 ---
 ## Полезные ресурсы и материалы в Интернете
 
-**[MultiSim](https://1drv.ms/f/s!AoDciBiVIuGkgcYtlMD9cU_23xJWQQ?e=FbA0yJ)**  
+**[MultiSim](https://disk.yandex.ru/d/zJz5R7WAoL_28Q)**  
 **[Altium Designer](https://1drv.ms/f/s!AoDciBiVIuGkgcV2JYSgLOXXOr3G-A?e=51rPlc)**  
 
 ---
