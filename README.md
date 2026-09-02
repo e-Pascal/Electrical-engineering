@@ -204,7 +204,7 @@
 
 `Билет.` Структура экзаменационного билета включает два теоретических вопроса и задачу.
 
-**[Вопросы к экзамену по электротехнике 2023](./exam/README.md)**
+**[Вопросы к экзамену по электротехнике](./exam/README.md)**
 
 ---
 ## Дополнительные материалы
@@ -231,7 +231,7 @@
 ## Полезные ресурсы и материалы в Интернете
 
 **[MultiSim](https://disk.yandex.ru/d/zJz5R7WAoL_28Q)**  
-**[Altium Designer](https://1drv.ms/f/s!AoDciBiVIuGkgcV2JYSgLOXXOr3G-A?e=51rPlc)**  
+**[Altium Designer](https://disk.yandex.ru/d/MpmjlfbMMNIEQA)**  
 
 ---
 ## Обратная связь и преподаватели
