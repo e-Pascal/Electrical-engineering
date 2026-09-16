@@ -231,7 +231,8 @@
 ## Полезные ресурсы и материалы в Интернете
 
 **[MultiSim](https://disk.yandex.ru/d/zJz5R7WAoL_28Q)**  
-**[Altium Designer](https://disk.yandex.ru/d/MpmjlfbMMNIEQA)**  
+**[Altium Designer 24](https://disk.yandex.ru/d/thG-tVEeHAOhxA)**  
+**[Altium Designer 25](https://disk.yandex.ru/d/eVgQfMK5pcqubg)**  
 
 ---
 ## Обратная связь и преподаватели
