@@ -45,8 +45,8 @@
 
 Для выполнения схемы в рамках настоящей курсовой работы необходимо установить САПР Altium Designer и SPICE-симулятор электрических схем, а также воспользоваться вспомогательными материалами для работы в САПР: библиотека компонентов, примеры проектов, форматки А3, пакет для шрифта ГОСТ А:
 
-- [x] **[Altium Designer](https://1drv.ms/f/s!AoDciBiVIuGkgcV2JYSgLOXXOr3G-A?e=51rPlc)**  
-- [x] **[LTspice](https://1drv.ms/f/s!AoDciBiVIuGkgcUu0pop8-9Obpul-w?e=lXBUB3)**  
+- [x] **[Altium Designer 24](https://disk.yandex.ru/d/thG-tVEeHAOhxA)**  
+- [x] **[Altium Designer 25](https://disk.yandex.ru/d/eVgQfMK5pcqubg)**  
 - [x] **[Вспомогательные материалы для работы в Altium](https://1drv.ms/f/s!AoDciBiVIuGkgbNWCQJwYsDw_9t2CA?e=sZTQLO)**  
 
 Перед выполнением практической части курсовой работы необходимо ознакомиться с приведёнными ниже приложениями, которые потребуются в процессе работы:
